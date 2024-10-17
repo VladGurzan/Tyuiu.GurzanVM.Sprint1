@@ -10,10 +10,10 @@ namespace Tyuiu.GurzanVM.Sprint1.Task6.V14.Test
         {
             string strTest = "À Á A B a b à á";
             DataService ds = new DataService();
-            bool res = ds.CheckLowerCaseRusLetters(strTest);
-            string wait = "à á";
+            bool res = ds.CheckLowerCaseRusLetters(strTest);           
+            bool wait = true;
             Assert.AreEqual(wait, res);
 
         }
     }
-}
+}   

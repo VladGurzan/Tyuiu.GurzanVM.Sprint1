@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using System.ComponentModel.Design;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.GurzanVM.Sprint1.Task6.V14.Lib
 {
@@ -6,14 +7,18 @@ namespace Tyuiu.GurzanVM.Sprint1.Task6.V14.Lib
     {
         public bool CheckLowerCaseRusLetters(string value)
         {
-            value.Replace("A", "");
-            value.Replace("А", "");
-            value.Replace("a", "");
-            return true;
             
-        }
+            
+                value = value.Replace("a b c", "");
+                value = value.Replace("A B C", "");
+                value = value.Replace("А Б В", "");
 
-        
-        
+
+         
+                return false;
+        }
+         
+
+
     }
 }
