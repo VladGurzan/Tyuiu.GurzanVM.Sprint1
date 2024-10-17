@@ -15,7 +15,7 @@ namespace Tyuiu.GurzanVM.Sprint1.Task6.V14.Lib
 
 
          
-                return false;
+                return true;
         }
          
 
